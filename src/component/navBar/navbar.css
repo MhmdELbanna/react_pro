@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: grey;
+}
+.navbar h1{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.navbar h2{
+    margin-right: 150px;
+    width: 100px;
+    background-color: rgb(47, 45, 45);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.navbar h2 span{
+    color: rgb(211, 45, 45);
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    background-color: wheat;
+    width: 20px;
+}
